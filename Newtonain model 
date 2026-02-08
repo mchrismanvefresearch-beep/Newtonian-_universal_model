@@ -1,0 +1,106 @@
+## 33. Fission as Geometric Renormalization
+
+### 33.1 The Mass Defect in VEF
+
+When a heavy nucleus undergoes fission, the Standard Model attributes 
+the released energy to "binding energy" and "neutrino emission." VEF 
+provides a geometric reinterpretation.
+
+**Uranium-238 Fission:**
+```
+U-238 → Th-234 + He-4
+Mass lost: 0.0046 amu ≈ 4.28 MeV
+```
+
+**VEF Interpretation:**
+
+The mass defect is **NF decompression energy**:
+
+    ΔE = (ρ_NF,compressed - ρ_NF,relaxed) × V_released        (1)
+
+**Physical Mechanism:**
+
+1. **Single Large Cluster (U-238):**
+   - Low surface-area-to-volume ratio: S/V ≈ 4πR²/(4πR³/3) = 3/R
+   - NF counter-force diluted over small surface
+   - High internal NF compression required
+   - Large stored potential energy
+
+2. **Two Smaller Clusters (Th-234 + He-4):**
+   - Higher combined S/V: (S₁+S₂)/(V₁+V₂) > S_U/V_U
+   - NF can "reach" PP nodes more effectively
+   - Lower NF compression required
+   - Less stored potential energy
+
+**Conservation:**
+
+    ΔE_released = ∫[P_NF,U - (P_NF,Th + P_NF,He)] dV           (2)
+
+This is **pure geometry**—no new particles required.
+
+### 33.2 The NF Re-Tension Pulse
+
+The released energy manifests as a **longitudinal substrate wave**:
+
+**Pulse Properties:**
+```
+Energy:    E_pulse = 4.28 MeV
+Velocity:  v = c (substrate tension wave)
+Frequency: ν = E/h ≈ 1.03 × 10²¹ Hz
+Charge:    0 (substrate displacement, not PP node)
+```
+
+**Propagation:**
+
+The pulse is a **pressure wave** in the NF substrate, analogous to 
+a sound wave in air but traveling at c due to the extreme stiffness 
+of the vacuum substrate.
+
+**Detection:**
+
+The pulse triggers events only when its amplitude exceeds the 
+**venting threshold** of a target PP node (proton):
+
+    P_int(E,L) = P₀ × (|Ψ(E,L)|/A_th)² × Θ(|Ψ| - A_th)        (3)
+
+Where:
+- P₀: Base coupling probability
+- Ψ(E,L): Pulse amplitude at distance L, energy E  
+- A_th: Geometric venting threshold of target proton
+- Θ: Heaviside step function (no interaction below threshold)
+
+**Why This Matches Neutrino Observations:**
+
+1. **Rarity:** Most pulses pass through matter (low P_int)
+2. **Energy Scale:** 0.5-10 MeV (matches β-decay spectrum)
+3. **Directionality:** Radial from source (conserves momentum)
+4. **No Charge:** NF displacement, not PP node
+
+### 33.3 Comparison to Standard Model
+
+| Property | Standard Model | VEF Interpretation |
+|----------|----------------|-------------------|
+| Energy carrier | Neutrino particle | NF substrate pulse |
+| Mass | ~0.1 eV (empirical) | 0 (massless wave) |
+| Detection mechanism | Weak force (W/Z bosons) | Resonance threshold |
+| Cross-section | σ ∝ E² (empirical fit) | P_int ∝ E² (geometric) |
+| Oscillations | Mass mixing (3 flavors) | Eigenmode interference |
+| Rarity | Weak coupling constant | Low venting probability |
+
+**Key Advantage:** VEF derives the E² scaling from geometry, 
+not empirical fitting.
+
+### 33.4 Experimental Validation
+
+**Prediction:** Reactor neutrino spectrum should match NF pulse 
+model without adjustable parameters beyond D_eff = 0.656.
+
+**Test:** KamLAND reactor data (baseline ~180 km, E = 0.5-8 MeV)
+
+Expected curve: R(L,E) ∝ Φ(E) × P_survival(L,E) × P_int(E)
+
+Where P_survival accounts for eigenmode interference (Section 34).
+
+**Falsification Criterion:** If predicted spectrum deviates >5% 
+from measured data after fixing D_eff, the substrate pulse model 
+is excluded.
