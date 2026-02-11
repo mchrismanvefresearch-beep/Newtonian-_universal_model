@@ -1,0 +1,28 @@
+{
+  "title": "Variable Exchange Field (VEF) Framework and 30 GFLOP Cosmological Solver",
+  "upload_type": "software",
+  "description": "Reference implementation of the Variable Exchange Field (VEF) framework, including a 30 GFLOP cosmological solver, stress tests, efficiency comparison, and conceptual notes on resonance-based propulsion (Z-126).",
+  "creators": [
+    {
+      "name": "Mark Chrisman",
+      "affiliation": "m.chrisman.vef.research",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "keywords": [
+    "cosmology",
+    "gravity",
+    "geometric field theory",
+    "numerical simulation",
+    "dark matter alternatives",
+    "VEF",
+    "Z-126",
+    "resonance slip"
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+  "notes": "Prototype research implementation. Use for exploratory and educational purposes only.",
+  "related_identifiers": [],
+  "version": "1.0.0"
+}
